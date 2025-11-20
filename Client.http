@@ -1,6 +1,11 @@
-GET http://localhost:3000/?user=bakir&id=2
+GET http://localhost:3000/login
 
 ###
 
-POST http://localhost:3000/login
+POST http://localhost:3000/sign
 Content-Type: application/json
+
+{
+  "username": "user1",
+  "password": "pass123"
+}
