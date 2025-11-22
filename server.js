@@ -9,5 +9,5 @@ app.listen(port, () => {
 });
 
 app.get('/', (req, res) => {
-  res.send('My server');
+  res.send('يشتغل يا كواد');
 });
